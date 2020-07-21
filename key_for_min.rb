@@ -9,5 +9,11 @@ name_hash.each do |key, value|
     smallest_value = value
     key_smallest_value = key 
   else
-    
+      if smallest_value > value 
+        smallest_value = value
+        key_smallest_value = key 
+      end
+    end
+  end 
+key_smallest_value
 end
