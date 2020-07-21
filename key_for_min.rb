@@ -8,5 +8,6 @@ name_hash.each do |key, value|
   if smallest_value == nil
     smallest_value = value
     key_smallest_value = key 
-  
+  else
+    
 end
